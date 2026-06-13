@@ -35,8 +35,9 @@ document.getElementById('registroForm').addEventListener('submit', function(e) {
         nombre: nombre,
         email: email,
         edad: edad,
-        pais: pais
+        pais: pais,
+        terminos: terminos
     });
 
-    window.location.href = `destino.html?${parametros.toString()}`;
+    window.location.href = `paginaB.html?${parametros.toString()}`;
 });
